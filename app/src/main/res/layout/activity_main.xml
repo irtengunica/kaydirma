@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <HorizontalScrollView
+        android:id="@+id/hs"
+        android:scrollbars="none"
+        android:layout_width="1160dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent">
+            <!-- page1 -->
+            <TextView
+                android:id="@+id/id1"
+                android:background="#FFFFFF"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="220dp"
+                android:layout_height="220dp" />
+            <TextView
+                android:background="#FFFFFF"
+                android:layout_marginRight="10dp"
+                android:layout_width="220dp"
+                android:layout_height="220dp" />
+            <TextView
+                android:background="#FFFFFF"
+                android:layout_marginRight="10dp"
+                android:layout_width="220dp"
+                android:layout_height="220dp" />
+            <TextView
+                android:background="#FFFFFF"
+                android:layout_marginRight="10dp"
+                android:layout_width="220dp"
+                android:layout_height="220dp" />
+            <TextView
+                android:background="#FFFFFF"
+                android:layout_marginRight="20dp"
+                android:layout_width="220dp"
+                android:layout_height="220dp" />
+            <!-- page2 -->
+            <TextView
+                android:background="#FF0000"
+                android:layout_marginRight="10dp"
+                android:layout_width="220dp"
+                android:layout_height="220dp" />
+            <TextView
+                android:background="#FF0000"
+                android:layout_marginRight="10dp"
+                android:layout_width="220dp"
+                android:layout_height="220dp" />
+            <TextView
+                android:background="#FF0000"
+                android:layout_marginRight="10dp"
+                android:layout_width="220dp"
+                android:layout_height="220dp" />
+            <TextView
+                android:background="#FF0000"
+                android:layout_marginRight="10dp"
+                android:layout_width="220dp"
+                android:layout_height="220dp" />
+            <TextView
+                android:background="#FF0000"
+                android:layout_marginRight="20dp"
+                android:layout_width="220dp"
+                android:layout_height="220dp" />
+            <!-- page3 -->
+            <TextView
+                android:background="#FFFF00"
+                android:layout_marginRight="10dp"
+                android:layout_width="220dp"
+                android:layout_height="220dp" />
+            <TextView
+                android:background="#FFFF00"
+                android:layout_marginRight="10dp"
+                android:layout_width="220dp"
+                android:layout_height="220dp" />
+            <TextView
+                android:background="#FFFF00"
+                android:layout_marginRight="10dp"
+                android:layout_width="220dp"
+                android:layout_height="220dp" />
+            <TextView
+                android:background="#FFFF00"
+                android:layout_marginRight="10dp"
+                android:layout_width="220dp"
+                android:layout_height="220dp" />
+            <TextView
+                android:background="#FFFF00"
+                android:layout_marginRight="10dp"
+                android:layout_width="220dp"
+                android:layout_height="220dp" />
+        </LinearLayout>
+    </HorizontalScrollView>
+</LinearLayout>
